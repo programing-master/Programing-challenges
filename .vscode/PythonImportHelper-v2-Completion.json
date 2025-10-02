@@ -49,7 +49,7 @@
         "kind": 2,
         "importPath": "Python_exercices.Binary_Search_Tree.binary",
         "description": "Python_exercices.Binary_Search_Tree.binary",
-        "peekOfCode": "def pre_order(tree,level=0):\n   if tree == []:\n       return\n   print(f'level {level} -> {str(tree[0])}') # root\n   pre_order(tree[1],level + 1) # left son\n   pre_order(tree[2],level + 1) #right son\ntree=[\n    'A',\n    ['B',\n     ['E',[],[]],",
+        "peekOfCode": "def pre_order(tree,level=0):\n   if tree == []:\n       return\n   print(f'level {level} -> {str(tree[0])}') # root\n   pre_order(tree[1],level + 1) # left son\n   pre_order(tree[2],level + 1) #right son\n   '''\n   Generame un layer para publicacion de linkedin en el q pongas unos logos super lindos tematica programacion y digas al publicao sobre mi repositorio de programacion donde hay varios ejercicios de programacion para mejorar la logica entre varios temas esta Brute Force\nRecursion\nLinear and binary searches",
         "detail": "Python_exercices.Binary_Search_Tree.binary",
         "documentation": {}
     },
