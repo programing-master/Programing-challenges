@@ -153,6 +153,42 @@
         "documentation": {}
     },
     {
+        "label": "is_safe",
+        "kind": 2,
+        "importPath": "Python_exercices.N_Queens.queens",
+        "description": "Python_exercices.N_Queens.queens",
+        "peekOfCode": "def is_safe(board, row, col):\n    for r in range(row):\n        c = board[r]\n        # Check same column or diagonals\n        if c == col or abs(c - col) == abs(r - row):\n            return False\n    return True\ndef solve_n_queens_util(board, row, n, solutions):\n    if row == n:\n        solutions.append(board[:])",
+        "detail": "Python_exercices.N_Queens.queens",
+        "documentation": {}
+    },
+    {
+        "label": "solve_n_queens_util",
+        "kind": 2,
+        "importPath": "Python_exercices.N_Queens.queens",
+        "description": "Python_exercices.N_Queens.queens",
+        "peekOfCode": "def solve_n_queens_util(board, row, n, solutions):\n    if row == n:\n        solutions.append(board[:])\n        return\n    for col in range(n):\n        if is_safe(board, row, col):\n            board[row] = col\n            solve_n_queens_util(board, row + 1, n, solutions)\ndef solve_n_queens(n):\n    board = [-1] * n",
+        "detail": "Python_exercices.N_Queens.queens",
+        "documentation": {}
+    },
+    {
+        "label": "solve_n_queens",
+        "kind": 2,
+        "importPath": "Python_exercices.N_Queens.queens",
+        "description": "Python_exercices.N_Queens.queens",
+        "peekOfCode": "def solve_n_queens(n):\n    board = [-1] * n\n    solutions = []\n    solve_n_queens_util(board, 0, n, solutions)\n    return solutions\n# Example usage:\nsolutions = solve_n_queens(8)\nprint(f\"Number of solutions: {len(solutions)}\")\nfor sol in solutions:\n    print(sol)",
+        "detail": "Python_exercices.N_Queens.queens",
+        "documentation": {}
+    },
+    {
+        "label": "solutions",
+        "kind": 5,
+        "importPath": "Python_exercices.N_Queens.queens",
+        "description": "Python_exercices.N_Queens.queens",
+        "peekOfCode": "solutions = solve_n_queens(8)\nprint(f\"Number of solutions: {len(solutions)}\")\nfor sol in solutions:\n    print(sol)",
+        "detail": "Python_exercices.N_Queens.queens",
+        "documentation": {}
+    },
+    {
         "label": "palindrome",
         "kind": 2,
         "importPath": "Python_exercices.Palindrome.palindrome",
@@ -267,6 +303,15 @@
         "description": "Python_exercices.Subsets_Permutations.permutations",
         "peekOfCode": "set = [1,2,3]\nsubsets(set)",
         "detail": "Python_exercices.Subsets_Permutations.permutations",
+        "documentation": {}
+    },
+    {
+        "label": "sum_digit",
+        "kind": 2,
+        "importPath": "Python_exercices.Sum_Digits.sum",
+        "description": "Python_exercices.Sum_Digits.sum",
+        "peekOfCode": "def sum_digit(number):\n    if number == 0:\n        return 0\n    return number % 10 + sum_digit(number // 10)\nprint(sum_digit(123))\nprint()\nprint(sum_digit(223))",
+        "detail": "Python_exercices.Sum_Digits.sum",
         "documentation": {}
     }
 ]
