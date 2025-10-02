@@ -45,6 +45,15 @@
         "documentation": {}
     },
     {
+        "label": "pre_order",
+        "kind": 2,
+        "importPath": "Python_exercices.Binary_Search_Tree.binary",
+        "description": "Python_exercices.Binary_Search_Tree.binary",
+        "peekOfCode": "def pre_order(tree,level=0):\n   if tree == []:\n       return\n   print(f'level {level} -> {str(tree[0])}') # root\n   pre_order(tree[1],level + 1) # left son\n   pre_order(tree[2],level + 1) #right son\ntree=[\n    'A',\n    ['B',\n     ['E',[],[]],",
+        "detail": "Python_exercices.Binary_Search_Tree.binary",
+        "documentation": {}
+    },
+    {
         "label": "bubble_sort",
         "kind": 2,
         "importPath": "Python_exercices.Bubble_Sort.bubble_sort",
@@ -60,6 +69,15 @@
         "description": "Python_exercices.Bubble_Sort.bubble_sort",
         "peekOfCode": "arr = [45,43,21,12,67,54,123,543,765,897]\nprint(bubble_sort(arr))",
         "detail": "Python_exercices.Bubble_Sort.bubble_sort",
+        "documentation": {}
+    },
+    {
+        "label": "sum_generate",
+        "kind": 2,
+        "importPath": "Python_exercices.Combinational_Sum_Problem.combinational",
+        "description": "Python_exercices.Combinational_Sum_Problem.combinational",
+        "peekOfCode": "def sum_generate(target):\n    if target < 0 or not isinstance(target,int):\n        return\n    result=[]\n    def backtracking(surplus,combination,start):\n         if surplus == 0:\n             result.append(combination[:])\n             return\n         for num in range(start,target + 1):\n             if num > surplus:",
+        "detail": "Python_exercices.Combinational_Sum_Problem.combinational",
         "documentation": {}
     },
     {
@@ -108,6 +126,15 @@
         "documentation": {}
     },
     {
+        "label": "show_graph",
+        "kind": 2,
+        "importPath": "Python_exercices.Graph_Traversal.graph",
+        "description": "Python_exercices.Graph_Traversal.graph",
+        "peekOfCode": "def show_graph(graph):\n    if len(graph) == 0:\n        print('Graph is null')\n        return\n    for node,edges in graph.items():\n         for dest,weight in edges:\n             print(f'({node}) -> ({dest}) -> with weight {weight}')\ngraph={\n    1:[(2,10),(4,30)],\n    2:[(1,10),(3,20)],",
+        "detail": "Python_exercices.Graph_Traversal.graph",
+        "documentation": {}
+    },
+    {
         "label": "lineal_search_recursion",
         "kind": 2,
         "importPath": "Python_exercices.LIneal_Search.lineal",
@@ -130,7 +157,7 @@
         "kind": 2,
         "importPath": "Python_exercices.Palindrome.palindrome",
         "description": "Python_exercices.Palindrome.palindrome",
-        "peekOfCode": "def palindrome(string):     \n     n = len(string) - 1\n     i = 0\n     while i <= n // 2: \n         if string[i].lower() != string[n - i].lower():\n             return False\n         i += 1\n     return True        \nprint(palindrome('racecar'))    # True (Palindrome)\nprint(palindrome('RaceCar'))    # True (Case insensitive)",
+        "peekOfCode": "def palindrome(string):     \n     string=string.strip()\n     n = len(string) - 1\n     i = 0\n     while i <= n // 2: \n         if string[i].lower() != string[n - i].lower():\n             return False\n         i += 1\n     return True        \nprint(palindrome('racecar'))    # True (Palindrome)",
         "detail": "Python_exercices.Palindrome.palindrome",
         "documentation": {}
     },
