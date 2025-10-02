@@ -1,55 +1,49 @@
-Logic Exercises in Python 🔥💻
-Welcome to a powerful collection of logic and algorithm exercises specially curated to help you level up your programming skills!
+# Logic Exercises in Python
 
-Developed to challenge your problem-solving ability, each exercise is presented with a clear problem statement and a detailed proposed solution in pure Python, built from scratch.
+This repository contains a collection of logic and algorithm exercises designed to share with the community and help take our programming skills to the next level.
 
-🚀 What you'll find inside
-Brute Force 🧱
+## Content
 
-Recursion 🔄
+In these exercises, you will find fundamental and advanced programming concepts such as:
 
-Linear and Binary Searches 🔍
+- Recursion
+- Linear and binary searches
+- Sorting algorithms: bubble sort, quick sort
+- Applied recursion
+- Permutations and combinatorics
+- Dynamic programming (DP)
+- And much more
 
-Sorting Algorithms: Bubble Sort, Quick Sort 🧹
+## Description
 
-Applied Recursion ♻️
+Each exercise includes a detailed statement and a proposed solution, developed entirely from scratch in Python. The goal is for you to understand the problem, the method to solve it, and the practical implementation of the algorithm.
 
-Permutations and Combinatorics 📊
+## Usage
 
-Dynamic Programming (DP) 📈
+1. Explore the exercises by topic or difficulty.
+2. Read the problem statement carefully.
+3. Try to solve the problem before reviewing the solution.
+4. Review the solution to compare, learn new techniques, or improve your code.
 
-Graphs & Trees 🌳
+## Why this repository?
 
-Backtracking 🔙
+Practicing these exercises will help you:
 
-And much more!
+- Improve programming logic.
+- Understand and apply classic and modern algorithms.
+- Prepare for technical interviews or competitive programming challenges.
+- Consolidate fundamental concepts in Python and algorithms.
 
-📖 How to use this repository
-Explore exercises by topic or difficulty.
+---
 
-Read each problem statement carefully.
+Contributions and suggestions are welcome! If you want to contribute new exercises or improvements, feel free to open an issue or submit a pull request.
 
-Try to solve it on your own before checking the proposed solution.
+---
 
-Review the Python solution to learn new techniques or improve your approach.
+## Contact
 
-💡 Why practice here?
-Enhance your programming logic and algorithmic thinking.
+You can follow me or contact me for questions, suggestions, or feedback on social media or community channels.
 
-Prepare efficiently for technical interviews and coding competitions.
+---
 
-Solidify your understanding of fundamental and advanced algorithms.
-
-Join a growing community focused on continuous learning and skill improvement.
-
-📫 Contribution & Contact
-Contributions, feedback, and suggestions are very welcome! Feel free to open issues or pull requests to help grow this collection.
-
-Follow me on LinkedIn or reach out to collaborate, suggest new exercises, or just chat about programming!
-
-Let's solve, learn, and grow our coding skills together! 🚀✨
-
-Visual suggestion for LinkedIn:
-Search for images with keywords: "coding algorithm", "programming logic", "computer science", or "data structures" on royalty-free image sites like Unsplash or Pixabay.
-
-For example, this image represents coding and algorithms perfectly:
+Let's take our programming to the next level together!
