@@ -6,12 +6,15 @@ This repository contains a collection of logic and algorithm exercises designed 
 
 In these exercises, you will find fundamental and advanced programming concepts such as:
 
+- Brute Force
 - Recursion
 - Linear and binary searches
 - Sorting algorithms: bubble sort, quick sort
 - Applied recursion
 - Permutations and combinatorics
 - Dynamic programming (DP)
+- Graphs & Trees
+- Backtracking
 - And much more
 
 ## Description
